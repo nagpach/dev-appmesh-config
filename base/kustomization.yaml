@@ -9,4 +9,12 @@ resources:
 - appmesh-system/flagger-crds.yaml
 - appmesh-system/flagger.yaml
 - appmesh-system/namespace.yaml
+- demo/ingress/appmesh-gateway.yaml
+- demo/namespace.yaml
+- demo/podinfo/canary.yaml
+- demo/podinfo/deployment.yaml
+- demo/podinfo/hpa.yaml
+- demo/tester/deployment.yaml
+- demo/tester/service.yaml
+- demo/tester/virtual-node.yaml
 - kube-system/metrics-server.yaml
